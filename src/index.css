@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 pt-20;
+}
+
+.postCredit {
+  @apply text-base flex justify-evenly font-[400];
+}
+.postCredit a,
+.postCredit a:visited {
+  @apply text-[black];
+}
+.postCredit a:hover,
+.postCredit a:focus {
+  @apply text-[hsla(0,0%,0%,0.75)];
+}
+
+.active {
+  @apply bg-gray-300 px-2 py-1 rounded;
+}
